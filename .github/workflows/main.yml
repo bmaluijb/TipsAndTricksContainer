@@ -9,6 +9,7 @@ jobs:
     - run: docker build . -t tipsandtrickscontainerregistry.azurecr.io/tipsandtrickscontainer:${{ github.sha }}
       
     - uses: Azure/container-scan@v0
+      id: container-scan
       continue-on-error: true
       with:
         image-name: tipsandtrickscontainerregistry.azurecr.io/tipsandtrickscontainer:${{ github.sha }}
