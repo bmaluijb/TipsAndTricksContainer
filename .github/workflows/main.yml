@@ -27,11 +27,4 @@ jobs:
       with: 
         scan-results-path: ${{ steps.container-scan.outputs.scan-report-path }}
         connection-string: ${{ secrets.AZ_APPINSIGHTS_CONNECTION_STRING }}
-        subscription-token: ${{ secrets.AZ_SUBSCRIPTION_TOKEN }} 
-        # connection-string: InstrumentationKey=2117c02e-80c3-47af-b1c5-768529add990;IngestionEndpoint=https://westeurope-4.in.applicationinsights.azure.com/
-        # subscription-token: c7999d44-c30a-4f05-b88f-a9bc82897a2a.71ed082a-0cea-4401-9b9f-64c5c7bc367d
-
-
-
-        
-                           
+        subscription-token: ${{ secrets.AZ_SUBSCRIPTION_TOKEN }}                 
