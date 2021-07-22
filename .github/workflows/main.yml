@@ -19,8 +19,4 @@ jobs:
           tenant: ${{ secrets.tenant }}
           registry: ${{ secrets.registry }}
           repository: ${{ secrets.repository }}         
-          # service_principal: "bfb6b0f2-5e8f-497f-9101-43a10711a63b"
-          # service_principal_password: "fvBbL99FVWbyWbnALkeTTvmo9ar0~h7Z8t"
-          # tenant: "85fff789-2a94-4cbc-9704-10390cf69733"
-          # registry: "tipsandtrickscontainerregistry"
-          # repository: "tipsandtrickscontainer"                               
+                           
